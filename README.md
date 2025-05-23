@@ -26,10 +26,10 @@ Saves the conversion for the specified user.
 The application uses an embedded H2 in-memory database that stores data during runtime:
 http://localhost:8080/h2-console
 
-Login details:
-JDBC URL: jdbc:h2:mem:testdb
-Username: sa
-Password: password
+**Login details:**
+- **JDBC URL:** `jdbc:h2:mem:testdb`
+- **Username:** `sa`
+- **Password:** `password`
 
 Additional notes
 The in-memory database resets on every application restart.
